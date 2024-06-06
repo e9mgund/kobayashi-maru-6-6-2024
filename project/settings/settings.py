@@ -29,9 +29,10 @@ SECRET_KEY = '6(l$w4k4ij%cf(%g*349-0-cld(4&dbctw)037juzd4q2h)jot'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost',
-    'pythonjobs.in',
-    'www.pythonjobs.in'
+    # 'localhost',
+    # 'pythonjobs.in',
+    # 'www.pythonjobs.in',
+    # '127.0.0.1',
 ]
 
 
@@ -49,6 +50,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'qux',
     'qux.seo',
+    'tournament',
 ]
 
 MIDDLEWARE = [
